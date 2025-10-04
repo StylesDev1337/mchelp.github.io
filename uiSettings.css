@@ -1,0 +1,16 @@
+/* 字体居中 */
+.center {
+    text-align: center;
+}
+/* 更改字体 */
+.font {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* 黑色 */
+.colorblk {
+    color: black;
+}
+/* 白色 */
+.colorwht {
+    color: white;
+}
