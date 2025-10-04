@@ -14,3 +14,30 @@
 .colorwht {
     color: white;
 }
+/* 字体加粗 */
+.fontBold {
+    font-weight: bold;
+}
+/* 字体取消加粗 */
+.delfontBold {
+    font-weight: normal;
+}
+/* 去除< a >标签下划线 */
+.delUnderline {
+    text-decoration: none;
+}
+/* 大字体 */
+.addFont{
+    font-size: 100px;
+}
+/* 动态字体 */
+.aniFont {
+    animation: colorChange 3s infinite
+}
+@keyframes colorChange {
+    0%{ color: cyan; }
+    25%{ color: rgb(255, 4, 129); }
+    50%{ color: darksalmon; }
+    75%{ color: lawngreen; }
+    100%{ color: deeppink; }
+}
